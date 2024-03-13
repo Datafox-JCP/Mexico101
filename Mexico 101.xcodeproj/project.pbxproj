@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C61A6E0A2BA15A9400CEE55C /* Mexico2.png in Resources */ = {isa = PBXBuildFile; fileRef = C61A6E062BA15A9400CEE55C /* Mexico2.png */; };
+		C61A6E0B2BA15A9400CEE55C /* Mexico.png in Resources */ = {isa = PBXBuildFile; fileRef = C61A6E072BA15A9400CEE55C /* Mexico.png */; };
+		C61A6E0C2BA15A9400CEE55C /* Mexico1B.png in Resources */ = {isa = PBXBuildFile; fileRef = C61A6E082BA15A9400CEE55C /* Mexico1B.png */; };
+		C61A6E0D2BA15A9400CEE55C /* Mexico1.png in Resources */ = {isa = PBXBuildFile; fileRef = C61A6E092BA15A9400CEE55C /* Mexico1.png */; };
+		C6723DAE2B9F748200E547A1 /* StateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6723DAD2B9F748200E547A1 /* StateDetailView.swift */; };
+		C6C128A22B9E85CE005ABA6F /* Mexico_101App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C128A12B9E85CE005ABA6F /* Mexico_101App.swift */; };
+		C6C128A62B9E85D5005ABA6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C128A52B9E85D5005ABA6F /* Assets.xcassets */; };
+		C6C128A92B9E85D5005ABA6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C128A82B9E85D5005ABA6F /* Preview Assets.xcassets */; };
+		C6C128B62B9E878B005ABA6F /* MexicoGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C128B52B9E878B005ABA6F /* MexicoGridViewModel.swift */; };
+		C6C128B82B9E8876005ABA6F /* StatesGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C128B72B9E8876005ABA6F /* StatesGridView.swift */; };
+		C6C128BC2B9E93F5005ABA6F /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C128BB2B9E93F5005ABA6F /* States.swift */; };
+		C6C128BE2B9EA55E005ABA6F /* StateTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C128BD2B9EA55E005ABA6F /* StateTitle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C61A6E062BA15A9400CEE55C /* Mexico2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mexico2.png; sourceTree = "<group>"; };
+		C61A6E072BA15A9400CEE55C /* Mexico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mexico.png; sourceTree = "<group>"; };
+		C61A6E082BA15A9400CEE55C /* Mexico1B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mexico1B.png; sourceTree = "<group>"; };
+		C61A6E092BA15A9400CEE55C /* Mexico1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mexico1.png; sourceTree = "<group>"; };
+		C6723DAD2B9F748200E547A1 /* StateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDetailView.swift; sourceTree = "<group>"; };
+		C6C1289E2B9E85CE005ABA6F /* Mexico 101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mexico 101.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C128A12B9E85CE005ABA6F /* Mexico_101App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mexico_101App.swift; sourceTree = "<group>"; };
+		C6C128A52B9E85D5005ABA6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6C128A82B9E85D5005ABA6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C6C128B52B9E878B005ABA6F /* MexicoGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MexicoGridViewModel.swift; sourceTree = "<group>"; };
+		C6C128B72B9E8876005ABA6F /* StatesGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesGridView.swift; sourceTree = "<group>"; };
+		C6C128BB2B9E93F5005ABA6F /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
+		C6C128BD2B9EA55E005ABA6F /* StateTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateTitle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6C1289B2B9E85CE005ABA6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C61A6E052BA15A6700CEE55C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C61A6E072BA15A9400CEE55C /* Mexico.png */,
+				C61A6E092BA15A9400CEE55C /* Mexico1.png */,
+				C61A6E082BA15A9400CEE55C /* Mexico1B.png */,
+				C61A6E062BA15A9400CEE55C /* Mexico2.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C6723DAF2B9F74EF00E547A1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C6C128952B9E85CE005ABA6F = {
+			isa = PBXGroup;
+			children = (
+				C61A6E052BA15A6700CEE55C /* Images */,
+				C6C128A02B9E85CE005ABA6F /* Mexico 101 */,
+				C6C1289F2B9E85CE005ABA6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6C1289F2B9E85CE005ABA6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6C1289E2B9E85CE005ABA6F /* Mexico 101.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6C128A02B9E85CE005ABA6F /* Mexico 101 */ = {
+			isa = PBXGroup;
+			children = (
+				C6C128A12B9E85CE005ABA6F /* Mexico_101App.swift */,
+				C6C128B12B9E872C005ABA6F /* Model */,
+				C6C128B22B9E8735005ABA6F /* Screens */,
+				C6C128AF2B9E870D005ABA6F /* Views */,
+				C6723DAF2B9F74EF00E547A1 /* Components */,
+				C6C128A52B9E85D5005ABA6F /* Assets.xcassets */,
+				C6C128A72B9E85D5005ABA6F /* Preview Content */,
+			);
+			path = "Mexico 101";
+			sourceTree = "<group>";
+		};
+		C6C128A72B9E85D5005ABA6F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C6C128A82B9E85D5005ABA6F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C6C128AF2B9E870D005ABA6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C6C128BD2B9EA55E005ABA6F /* StateTitle.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C6C128B12B9E872C005ABA6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6C128BB2B9E93F5005ABA6F /* States.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C6C128B22B9E8735005ABA6F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C6C128B42B9E874F005ABA6F /* Main */,
+				C6C128B32B9E873F005ABA6F /* Detail */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C6C128B32B9E873F005ABA6F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C6723DAD2B9F748200E547A1 /* StateDetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		C6C128B42B9E874F005ABA6F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C6C128B52B9E878B005ABA6F /* MexicoGridViewModel.swift */,
+				C6C128B72B9E8876005ABA6F /* StatesGridView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6C1289D2B9E85CE005ABA6F /* Mexico 101 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6C128AC2B9E85D5005ABA6F /* Build configuration list for PBXNativeTarget "Mexico 101" */;
+			buildPhases = (
+				C6C1289A2B9E85CE005ABA6F /* Sources */,
+				C6C1289B2B9E85CE005ABA6F /* Frameworks */,
+				C6C1289C2B9E85CE005ABA6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mexico 101";
+			productName = "Mexico 101";
+			productReference = C6C1289E2B9E85CE005ABA6F /* Mexico 101.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6C128962B9E85CE005ABA6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C6C1289D2B9E85CE005ABA6F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = C6C128992B9E85CE005ABA6F /* Build configuration list for PBXProject "Mexico 101" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6C128952B9E85CE005ABA6F;
+			productRefGroup = C6C1289F2B9E85CE005ABA6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6C1289D2B9E85CE005ABA6F /* Mexico 101 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6C1289C2B9E85CE005ABA6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C128A92B9E85D5005ABA6F /* Preview Assets.xcassets in Resources */,
+				C61A6E0C2BA15A9400CEE55C /* Mexico1B.png in Resources */,
+				C61A6E0A2BA15A9400CEE55C /* Mexico2.png in Resources */,
+				C61A6E0B2BA15A9400CEE55C /* Mexico.png in Resources */,
+				C61A6E0D2BA15A9400CEE55C /* Mexico1.png in Resources */,
+				C6C128A62B9E85D5005ABA6F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6C1289A2B9E85CE005ABA6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C128BE2B9EA55E005ABA6F /* StateTitle.swift in Sources */,
+				C6C128BC2B9E93F5005ABA6F /* States.swift in Sources */,
+				C6723DAE2B9F748200E547A1 /* StateDetailView.swift in Sources */,
+				C6C128B62B9E878B005ABA6F /* MexicoGridViewModel.swift in Sources */,
+				C6C128B82B9E8876005ABA6F /* StatesGridView.swift in Sources */,
+				C6C128A22B9E85CE005ABA6F /* Mexico_101App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C6C128AA2B9E85D5005ABA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6C128AB2B9E85D5005ABA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6C128AD2B9E85D5005ABA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mexico 101/Preview Content\"";
+				DEVELOPMENT_TEAM = T2Q4YR3P44;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.datafox.Mexico-101";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6C128AE2B9E85D5005ABA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mexico 101/Preview Content\"";
+				DEVELOPMENT_TEAM = T2Q4YR3P44;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.datafox.Mexico-101";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6C128992B9E85CE005ABA6F /* Build configuration list for PBXProject "Mexico 101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C128AA2B9E85D5005ABA6F /* Debug */,
+				C6C128AB2B9E85D5005ABA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6C128AC2B9E85D5005ABA6F /* Build configuration list for PBXNativeTarget "Mexico 101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C128AD2B9E85D5005ABA6F /* Debug */,
+				C6C128AE2B9E85D5005ABA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6C128962B9E85CE005ABA6F /* Project object */;
+}
